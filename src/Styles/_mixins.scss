@@ -1,0 +1,19 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+@mixin grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@mixin headerIcon {
+  color: $gray-color;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+@mixin headerBtn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 8px;
+}

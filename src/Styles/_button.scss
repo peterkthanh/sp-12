@@ -1,0 +1,17 @@
+@mixin button {
+  background: none;
+  padding: 14px 3rem;
+  border: 1px solid $main-color;
+  border-radius: 20px;
+  color: $main-color;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+@mixin HoverButton {
+  transform: scale(130%);
+  transition: 0.5s ease-in-out;
+  color: $main-color;
+  background-color: $secondary-color;
+}
